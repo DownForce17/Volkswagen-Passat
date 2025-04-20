@@ -1,4 +1,8 @@
 { "commands": [
+  { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30,
+  "signals": [
+    {"id": "TAYCAN_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 100, "mul": 0.127, "add": -1798.574, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+  ]},
   { "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
   "signals": [
     {"id": "PASSAT_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
