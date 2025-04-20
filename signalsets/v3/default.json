@@ -1,4 +1,12 @@
 { "commands": [
+  { "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
+  "signals": [
+    {"id": "GOLF_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
+  { "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+  "signals": [
+    {"id": "PASSAT_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+  ]},
   { "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 30,
   "signals": [
     {"id": "PASSAT_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8, "max": 6.375, "div": 40, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
