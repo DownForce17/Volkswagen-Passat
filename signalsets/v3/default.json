@@ -60,11 +60,11 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E3B"}, "freq": 1,
   "signals": [
-    {"id": "PASSAT_GTE_HVBAT_VOLTS", "path": "Battery", "fmt": { "len": 16, "max": 1000, "div": 4, "unit": "volts" }, "name": "HV battery voltage"}
+    {"id": "PASSAT_GTE_HVBAT_VOLTS", "path": "Battery", "fmt": { "len": 16, "max": 1000, "div": 6, "unit": "volts" }, "name": "HV battery voltage"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E3D"}, "freq": 1,
   "signals": [
-    {"id": "PASSAT_GTE_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 800, "min": -200, "div": 2.76, "add": -511, "unit": "amps" }, "name": "HV battery current"}
+    {"id": "PASSAT_GTE_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 800, "min": -200, "div": 4, "add": -511, "unit": "amps" }, "name": "HV battery current"}
   ]}
 ]
 }
